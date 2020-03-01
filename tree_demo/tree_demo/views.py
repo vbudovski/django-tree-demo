@@ -38,7 +38,6 @@ class CategoryViewSet(ViewSet):
     def move_before(self, request, pk=None):
         node_to_move = Category.objects.get(pk=pk)
         node = Category.objects.get(pk=request.data.get('node'))
-        print(f'moving {node_to_move} before {node}')
 
         Category.objects.insert_before(node, node_to_move)
 
@@ -48,7 +47,6 @@ class CategoryViewSet(ViewSet):
     def move_after(self, request, pk=None):
         node_to_move = Category.objects.get(pk=pk)
         node = Category.objects.get(pk=request.data.get('node'))
-        print(f'moving {node_to_move} after {node}')
 
         Category.objects.insert_after(node, node_to_move)
 

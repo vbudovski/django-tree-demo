@@ -48,8 +48,6 @@ class App extends React.Component {
   };
 
   handleDrop = async ({ event, node, dragNode }) => {
-    console.log('dragging node', dragNode.title, dragNode.key);
-
     if (node.dragOverGapTop) {
       await this.handleMove(node, dragNode, true);
     } else if (node.dragOverGapBottom) {

@@ -8,14 +8,14 @@ from tree_demo.models import Category
 
 class Command(BaseCommand):
     @transaction.atomic
-    def add_children(self, parent: Optional[Category], depth: int, max_depth: int):
+    def add_children(self, parent: Optional[Category], depth: int, max_depth: int, nodes_per_level: int):
         if parent is None:
             prefix = ''
         else:
             prefix = f'{parent.name}_'
 
         nodes = []
-        for i in range(10):
+        for i in range(nodes_per_level):
             try:
                 previous = nodes[i - 1]
             except IndexError:
@@ -26,8 +26,8 @@ class Command(BaseCommand):
 
         if depth < max_depth:
             for node in nodes:
-                self.add_children(node, depth + 1, max_depth)
+                self.add_children(node, depth + 1, max_depth, nodes_per_level)
 
     @transaction.atomic
     def handle(self, *args, **options):
-        self.add_children(None, 0, 3)
+        self.add_children(None, 0, 3, 10)
