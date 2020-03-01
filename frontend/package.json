@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "build": "NODE_ENV=production webpack --mode production",
+    "dev": "NODE_ENV=development webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.12.0",
+    "antd": "^4.0.0",
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "react-hot-loader": "^4.12.19",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-bundle-tracker": "^0.4.3",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
