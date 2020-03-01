@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_tree',
     'webpack_loader',
-    'silk',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -57,7 +56,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'silk.middleware.SilkyMiddleware',
 ]
 
 ROOT_URLCONF = 'django-site.urls'

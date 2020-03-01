@@ -9,7 +9,6 @@ Django==2.2.10
 django-cte==1.1.5
 django-extensions==2.2.8
 django-heroku==0.3.1
-django-silk==4.0.0
 -e git+https://github.com/vbudovski/django-tree.git@8f34ec3795930974170ec23abdd82532b8e83f70#egg=django_tree
 django-webpack-loader==0.7.0
 djangorestframework==3.11.0
