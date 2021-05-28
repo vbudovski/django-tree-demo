@@ -1,1 +1,1 @@
-{"status":"done","chunks":{"main":[{"name":"main.js","path":"/Users/vitaly/git/django-tree-demo/frontend/dist/main.js"},{"name":"main.js.map","path":"/Users/vitaly/git/django-tree-demo/frontend/dist/main.js.map"}]}}
+{"status":"done","chunks":{"main":["main.js"]},"assets":{"main.js":{"name":"main.js"},"main.js.LICENSE.txt":{"name":"main.js.LICENSE.txt"},"main.js.map":{"name":"main.js.map"}}}
