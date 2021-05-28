@@ -10,7 +10,7 @@ django-extensions==2.2.8
 django-heroku==0.3.1
 -e git+https://github.com/vbudovski/django-tree.git@8f34ec3795930974170ec23abdd82532b8e83f70#egg=django_tree
 django-webpack-loader==0.7.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 gprof2dot==2019.11.30
 gunicorn==20.0.4
 idna==2.9
