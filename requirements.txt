@@ -5,12 +5,12 @@ certifi==2019.11.28
 chardet==3.0.4
 decorator==4.4.1
 dj-database-url==0.5.0
-Django==2.2.10
+Django==2.2.23
 django-extensions==2.2.8
 django-heroku==0.3.1
 -e git+https://github.com/vbudovski/django-tree.git@8f34ec3795930974170ec23abdd82532b8e83f70#egg=django_tree
 django-webpack-loader==0.7.0
-djangorestframework==3.11.0
+djangorestframework==3.12.4
 gprof2dot==2019.11.30
 gunicorn==20.0.4
 idna==2.9
@@ -18,7 +18,7 @@ ipython==7.13.0
 ipython-genutils==0.2.0
 isort==4.3.21
 jedi==0.16.0
-Jinja2==2.11.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 parso==0.6.2
 pexpect==4.8.0
@@ -27,7 +27,7 @@ prompt-toolkit==3.0.3
 psycopg2==2.8.4
 ptyprocess==0.6.0
 pycodestyle==2.5.0
-Pygments==2.5.2
+Pygments==2.9.0
 python-dateutil==2.8.1
 pytz==2019.3
 requests==2.23.0
